@@ -75,6 +75,8 @@
   }
   .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.25); }
   .btn-dark { background: var(--forest); color: #fff; }
+  .btn-mid { background: var(--neon); color: var(--forest); border: 2px solid var(--forest); }
+  .center-btn { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
   .btn-light { background: var(--neon-soft); color: var(--forest); border: 2px solid var(--forest); }
 
   /* cursor sprite like the reference */
@@ -208,7 +210,7 @@
 <!-- ================= HERO ================= -->
 <header class="hero" id="top">
   <img id="cursor1" alt="" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M3 2l17 9-7 2-3 7z' fill='%230f2a17' stroke='%238ef5a8' stroke-width='1.5'/></svg>" />
-  <div class="presents">Stanford Climate Week and Raisable.ai Presents</div>
+  <div class="presents">Stanford Climate Week and Raisable.vc Presents</div>
   <div id="hackathon-box">
     <canvas id="electric-box"></canvas>
     <span id="title-main">CL3ANTECH</span>
@@ -221,6 +223,7 @@
   </p>
   <div class="hero-buttons">
     <a class="btn btn-dark" href="https://stanford-cleantech-hackathon.devpost.com/" target="_blank" rel="noopener">Register Hacker</a>
+    <a class="btn btn-mid" href="https://luma.com/opp84p2y" target="_blank" rel="noopener">Registration</a>
     <a class="btn btn-light" href="https://docs.google.com/document/d/15fvWlnVcsQuWeAVbtuQhzrvSHii8ef_fXmh3DPh2FWo/edit?usp=sharing" target="_blank" rel="noopener">Ultimate Guide</a>
   </div>
 </header>
@@ -397,9 +400,9 @@
   <div class="event">
     <div class="time">Friday — 3:30 PM to 4:45 PM</div>
     <div class="loc">📍Mackenzie Room</div>
-    <div class="title-row"><span class="tag">Workshops</span><h4>Google Earth Engine 101</h4></div>
+    <div class="title-row"><span class="tag">Workshops</span><h4>Pixels 101: Onboarding with Google Earth Engine and Planet.com</h4></div>
     <p>A hands-on introduction to analyzing satellite and vector data with the Earth Engine API.</p>
-    <div class="links"><a href="https://docs.google.com/document/d/163qTn8TgOZwRGS02T9tu9vSZ8zTEXGyrqvSrJ0enSc8/edit?tab=t.0" target="_blank" rel="noopener">Workshop Guide</a></div>
+    <div class="links"><a href="https://docs.google.com/document/d/1-DSQckV9HosKpba3bQQ-c4UDgEdq2c3TgwoK9fztIPY/edit?usp=sharing" target="_blank" rel="noopener">Workshop Guide</a></div>
   </div>
 
   <div class="event">
@@ -407,6 +410,7 @@
     <div class="loc">📍Mackenzie Room</div>
     <div class="title-row"><span class="tag">Events</span><h4>🎤 OPENING CEREMONY</h4></div>
     <p>Join us for the official opening of the Cleantech Hackathon — official hacking begins!</p>
+    <p>Hear opening remarks from our sponsors at TotalEnergies, Schneider Electric Ventures, and Sustainability Accelerator.</p>
   </div>
 
   <div class="event">
@@ -427,8 +431,9 @@
   <div class="event">
     <div class="time">Saturday — 11:00 AM to 12:00 PM</div>
     <div class="loc">📍Mackenzie Room</div>
-    <div class="title-row"><span class="tag">Events</span><h4>🌍 Panel: TBD</h4></div>
-    <p>Speakers to be announced — stay tuned!</p>
+    <div class="title-row"><span class="tag">Events</span><h4>🌍 From Stanford Research to Startup</h4></div>
+    <p>What does it take to turn a promising idea into a company? Join Brian Bartholomeusz, Managing Director of Innovation Transfer at Stanford’s TomKat Center for Sustainable Energy; Caraiosa O’Farrell, a Stanford founder; and a representative from StartX’s energy vertical for a conversation about the journey from research to commercialization.</p>
+    <p>Bringing together perspectives from technology transfer, startup building, and founder support, the panel will explore how to validate an idea, navigate early challenges, and tap into Stanford’s entrepreneurial ecosystem. Whether you’re building your first hackathon prototype or considering launching a company, come learn what it takes to move an idea forward.</p>
   </div>
 
   <div class="event">
@@ -438,23 +443,11 @@
   </div>
 
   <div class="event">
-    <div class="time">Saturday — 3:00 PM</div>
+    <div class="time">Saturday — 3:00 PM to 4:00 PM</div>
     <div class="loc">📍Mackenzie Room</div>
-    <div class="title-row"><span class="tag">Food</span><h4>Snacks</h4></div>
-  </div>
-
-  <div class="event">
-    <div class="time">Saturday — 3:00 PM to 3:30 PM</div>
-    <div class="loc">📍Mackenzie Room</div>
-    <div class="title-row"><span class="tag">Events</span><h4>🍀 Panel: TBD</h4></div>
-    <p>Speakers to be announced — stay tuned!</p>
-  </div>
-
-  <div class="event">
-    <div class="time">Saturday — 3:30 PM to 4:00 PM</div>
-    <div class="loc">📍Mackenzie Room</div>
-    <div class="title-row"><span class="tag">Events</span><h4>Dance Break</h4></div>
-    <p>Get energized for the FINAL STRETCH!</p>
+    <div class="title-row"><span class="tag">Events</span><h4>🍀 From Climate Data to Climate Action</h4></div>
+    <p>How can climate data inform solutions that make a real-world impact? Join Giancarlo Savini of Carbon Removal Partners, Kevin Kopczynski of Congruent Ventures, and Ajay Gupta of CLAI Ventures for a conversation about turning climate insights into actionable opportunities.</p>
+    <p>The panel will explore how investors evaluate climate solutions, what evidence helps validate a promising idea, and what it takes to move from a compelling prototype to real-world adoption. Hackathon participants will gain perspectives on connecting their technical work to customer needs, commercial viability, and measurable climate impact.</p>
   </div>
 
   <div class="event deadline">
@@ -485,7 +478,7 @@
     <p>Find out the winners of our challenge tracks, watch the top teams demo, and celebrate all your amazing work!</p>
   </div>
 
-  <div class="center-btn"><a class="btn btn-dark" href="https://stanford-cleantech-hackathon.devpost.com/" target="_blank" rel="noopener">Register Hacker</a></div>
+  <div class="center-btn"><a class="btn btn-dark" href="https://stanford-cleantech-hackathon.devpost.com/" target="_blank" rel="noopener">Register Hacker</a><a class="btn btn-mid" href="https://luma.com/opp84p2y" target="_blank" rel="noopener">Registration</a></div>
 </section>
 
 <!-- ================= PRIZES & LOGISTICS ================= -->
@@ -549,7 +542,7 @@
   <p class="sub">Thank you to all our sponsors &amp; partners for making this hackathon possible!</p>
   <div class="sponsor-grid">
     <!-- Swap the text for <img src="assets/sponsors/....png" alt="..."> once you have logo files -->
-    <div class="sponsor">Raisable.ai</div>
+    <div class="sponsor">Raisable.vc</div>
     <div class="sponsor">TotalEnergies</div>
     <div class="sponsor">Silicon Valley Clean Energy</div>
     <div class="sponsor">Google Earth Engine</div>
@@ -630,7 +623,7 @@
       <p>You can use Stanford Visitor, Stanford, or Eduroam.</p>
     </details>
     <details><summary>I have a question not answered here</summary>
-      <p>Please email <a href="mailto:angelali@stanford.edu">angelali@stanford.edu</a> or <a href="mailto:sacha@raisable.ai">sacha@raisable.ai</a> and we will do our best to help!</p>
+      <p>Please email <a href="mailto:angelali@stanford.edu">angelali@stanford.edu</a> or <a href="mailto:sacha@raisable.vc">sacha@raisable.vc</a> and we will do our best to help!</p>
     </details>
   </div>
 </section>
@@ -645,12 +638,12 @@
     <div class="step"><div class="num">3</div><h3>Sponsor the Event</h3><p>Support the hackathon as an organization and gain visibility.</p></div>
     <div class="step"><div class="num">4</div><h3>Provide Data or Resources</h3><p>Share datasets or tools that could help teams develop solutions.</p></div>
   </div>
-  <div class="center-btn"><a class="btn btn-dark" href="mailto:angelali@stanford.edu">Contact us</a></div>
+  <div class="center-btn"><a class="btn btn-dark" href="mailto:angelali@stanford.edu">Contact us</a><a class="btn btn-mid" href="https://forms.gle/meKypmn6xaG9xd1L9" target="_blank" rel="noopener">Interest Form</a></div>
 </section>
 
 <footer>
   <p>Stanford Cleantech Hackathon · October 23–24, 2026 · A flagship event of Stanford Climate Week</p>
-  <p>Questions? <a href="mailto:angelali@stanford.edu">angelali@stanford.edu</a> · <a href="mailto:sacha@raisable.ai">sacha@raisable.ai</a></p>
+  <p>Questions? <a href="mailto:angelali@stanford.edu">angelali@stanford.edu</a> · <a href="mailto:sacha@raisable.vc">sacha@raisable.vc</a></p>
   <p>Made with ❤️ by the Stanford Cleantech Hackathon Team</p>
 </footer>
 
